@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                 obj_adapter=new PDF_Adapter(getApplicationContext(),pdfarray);
                 listview_pdf.setAdapter(obj_adapter);
             } else {
-                Toast.makeText(MainActivity.this,"Please Allow Permmission", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this,"Por favor permita acesso aos documentos", Toast.LENGTH_SHORT).show();
             }
 
         }
